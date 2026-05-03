@@ -28,7 +28,7 @@ if (!basePath) {
 }
 
 export default defineConfig({
-  base: '/TheVault/',
+  base: basePath,
   plugins: [
     react(),
     tailwindcss(),
